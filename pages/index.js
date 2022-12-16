@@ -32,7 +32,7 @@ let cards = [
                         <Link href="/work">see <br/>all<br/> work</Link>
                     </div>
                     <h4>JUN - AUG 2022</h4>
-                    <h2>Hyundai&#34;s Smart Factory Microsite</h2>
+                    <h2>Hyundai's Smart Factory Microsite</h2>
                     <div className="desc">
                         <span>
                         Educate and build trust with customers via an interactive web experience
@@ -102,7 +102,7 @@ let cards = [
                 <h4>JAN - AUG 2021</h4>
                 <h2>Student Progress Dashboard</h2>
                 <div className="desc">
-                <span>A web app for teachers and parents who need to view progress on students&#34; literacy skills</span>
+                <span>A web app for teachers and parents who need to view progress on students' literacy skills</span>
                 </div>
                     <div className="stack">
                         {['UI/UX Design', 'Front-end', 'Web', 'Research'].map(s => {

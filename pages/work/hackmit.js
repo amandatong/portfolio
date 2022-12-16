@@ -17,7 +17,7 @@ const opening = {
     // image_one: <img className="left" src="/assets/hyundai/h_laptop2.png"/>,
     // image_two: <img src="/assets/hyundai/h_laptop.png"/>,
     brief: <><p>
-    I was the head of the Development Team for HackMIT 2022, where I was a project manager and lead developer on HackMIT&#34;s event guide, DayOf.
+    I was the head of the Development Team for HackMIT 2022, where I was a project manager and lead developer on HackMIT's event guide, DayOf.
     </p>
     <p>I oversaw the execution of turning mockups into web development, and polished the site with user experience enhancements such as responsiveness, info pop-ups on the Schedule page, a "Jump To" button on the Challenges page, and more.</p>
     <p>You can view the site at <a href="http://dayof.hackmit.org/" target="_blank" rel="noreferrer">dayof.hackmit.org</a></p>

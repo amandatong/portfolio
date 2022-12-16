@@ -40,7 +40,7 @@ const opening = {
     image_one: <img className="left" src="/assets/tam/tam11.png"/>,
     image_two: <img className="right" src="/assets/tam/tam22.png"/>,
     brief: <><p>
-    TAM: Take a Minute is a mobile app idea conceived as part of the 6-week intensive Human-Centered Design class I took with MIT&#34;s Integrated Design &amp; Management department. 
+    TAM: Take a Minute is a mobile app idea conceived as part of the 6-week intensive Human-Centered Design class I took with MIT's Integrated Design &amp; Management department. 
     TAM focuses on alleviating the busy schedules of student-athletes, using AI to find the best gaps in their schedule to remind the user to &quot;take a minute&quot; and practice a chosen 
     self-care method. 
     </p><p>My primary role was facilitating our brainstorming process, refining the UI design, and creating the information architecture.</p></>,
@@ -94,7 +94,7 @@ const content = [
         subtitle: 'Process',
         title: 'Human-centered design',
         body: <>
-        <p>We followed MIT IDM&#34;s Human-centered Design Process, while also incorporating Agile design methods to ensure we would have an MVP at the end of the class.</p>
+        <p>We followed MIT IDM's Human-centered Design Process, while also incorporating Agile design methods to ensure we would have an MVP at the end of the class.</p>
         <div className="process-wrap">
                 <TamProcess/>
                 {['User Research', 'Research Analysis', 'Concept Generation', 'Digital Prototyping', 'Testing', 'Iteration & Refinement', 'Storytelling'].map((name, i) => {
@@ -216,7 +216,7 @@ const content = [
                         <div style={{opacity:0.2}}><BsPeople/><h3>Communication with coach/team</h3></div>
                     </div>
                     <br/>
-                    <div className="image-wrap right" style={{width:'15%'}}><img src="/assets/tam/schedule.jpeg"/> <span>Interviewee&#34;s schedule.</span></div>
+                    <div className="image-wrap right" style={{width:'15%'}}><img src="/assets/tam/schedule.jpeg"/> <span>Interviewee's schedule.</span></div>
                 <p>With a new goal in mind, we also decided to address the feedback: student-athletes <i>are</i> so busy, that we decided that
                  these reminders should be for <b>short</b> self-care breaks that fit into their schedule.</p>
                  <p>One interviewee had given us a screenshot of their schedule, packed with academics, sports, and a part-time job. We noticed that
@@ -307,7 +307,7 @@ const content = [
             &quot;I can see myself using it towards later time of the day&quot;
             </div>
             <div className="quote">
-            &quot;I don&#34;t think it&#34;s stressful. It&#34;s an option you can take, not like forcing you to do something.&quot;
+            &quot;I don't think it's stressful. It's an option you can take, not like forcing you to do something.&quot;
             </div>
         </>
     },

@@ -33,13 +33,13 @@ const content = [
     {
         subtitle: 'Context',
         title: 'Where did this all start?',
-        body: <><p>The Hyundai Motor Group Innovation Center in Singapore (HMGICS) is Hyundai Motor Group&#34;s upcoming smart factory and 
+        body: <><p>The Hyundai Motor Group Innovation Center in Singapore (HMGICS) is Hyundai Motor Group's upcoming smart factory and 
         innovation lab, focusing on leveraging up-and-coming technology and promising near-automation and customization of 
         the car manufacturing process. </p>
     
     <p>I worked on the S Innovation Progress team at Hyundai Motors, which is responsible for the strategy and research behind HMGICS. 
         When I was asked to propose my own independent project for the team, 
-        I decided to tackle an area the team wasn&#34;t focusing on: UI/UX and the customer-facing experience. </p>
+        I decided to tackle an area the team wasn't focusing on: UI/UX and the customer-facing experience. </p>
     <p>In compliance with my NDA, research details and the process deck have been omitted.</p></>
     },
     {
@@ -96,7 +96,7 @@ const content = [
         title: 'Exploring existing content',
         body: <>
         <h3>Existing Material</h3>
-        <p>Before I tackled anything, I read a lot of material on what Hyundai&#34;s vision of a smart factory was, and found that a lot of the technology centered around newer, intangible concepts that were harder to visualize: artificial intelligence, the metaverse, and digital twin technology. Then, I looked for existing content about each topic, and found that the only available information were articles filled with lengthy paragraphs and lots of technical terms.</p>
+        <p>Before I tackled anything, I read a lot of material on what Hyundai's vision of a smart factory was, and found that a lot of the technology centered around newer, intangible concepts that were harder to visualize: artificial intelligence, the metaverse, and digital twin technology. Then, I looked for existing content about each topic, and found that the only available information were articles filled with lengthy paragraphs and lots of technical terms.</p>
         <h3>User Interview Insights</h3>
         <p>Next, I talked to a few different users, who were either not familiar with what a smart factory was, or agreed that there needed to be more accessible ways of learning about a smart factory.</p>
         <div className="columns-wrap">
@@ -120,8 +120,8 @@ const content = [
         body: <>
         <p>Although I brainstormed potential AR/XR solutions and mobile applications, 
             I quickly realized I wanted this product to be accessible to as many customers as possible, 
-            meaning that it should not be restricted to someone&#34;s phone — and therefore meant building a website. </p>
-            <p>However, the website also wasn&#34;t going to be tackling everything that HMGICS had to offer — I still 
+            meaning that it should not be restricted to someone's phone — and therefore meant building a website. </p>
+            <p>However, the website also wasn't going to be tackling everything that HMGICS had to offer — I still 
             wanted to keep the original site available so people could browse the articles and commerce available there. 
             This meant that I ultimately decided on building a microsite.</p>
             <p>The microsite would be interactive with popups, micro-interactions, and unique animations on each page to engage the user to stay on the site and explore. </p>
@@ -168,7 +168,7 @@ const content = [
         title: 'Creating the graphics',
         body: <>
             <p>I started with some early sketches, and landed on the idea of using cubes as the motif for the site: the cubes
-            gave a modern and sleek edge to the designs that complemented the site&#34;s mission.</p>
+            gave a modern and sleek edge to the designs that complemented the site's mission.</p>
             <h3>Early animation ideas</h3>
             <div className="three-images four">
                 <img src="/assets/hyundai/early1.png"/>
@@ -216,9 +216,9 @@ const content = [
         <p>If I were to go back, I would not have tried building a front-end prototype, but rather I would have loved to try and do some more UI designs
             for potential playable sections, for real, interactive learning.
         </p>
-        <p>Additionally, due to the timeline, I wasn&#34;t able to do more user testing after creating the prototypes.
+        <p>Additionally, due to the timeline, I wasn't able to do more user testing after creating the prototypes.
             If I were to go back to this project or redo it, I would perform more user tests for feedback, especially
-            outside my team&#34;s feedback that I garnered from meetings.
+            outside my team's feedback that I garnered from meetings.
         </p>
         <h3>Acknowledgements</h3>
         <p>I would like to give many thanks to the whole S Innovation Progress team, who not only trusted me with this independent 
@@ -239,7 +239,7 @@ const opening = {
     image_one: <img className="left" src="/assets/hyundai/h_laptop2.png"/>,
     image_two: <img src="/assets/hyundai/h_laptop.png"/>,
     brief: <p>
-    During my internship with Hyundai, I proposed the design of a microsite that would enhance a customer&#34;s experience 
+    During my internship with Hyundai, I proposed the design of a microsite that would enhance a customer's experience 
     when researching how a smart factory works. The aim of the digital experience was to create an engaging, interactive 
     resource for customers to learn about some of the more ambiguous technologies surrounding the factory, allowing the 
     company to build trust with their consumers.
