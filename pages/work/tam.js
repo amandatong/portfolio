@@ -41,7 +41,7 @@ const opening = {
     image_two: <img className="right" src="/assets/tam/tam22.png"/>,
     brief: <><p>
     TAM: Take a Minute is a mobile app idea conceived as part of the 6-week intensive Human-Centered Design class I took with MIT&#34;s Integrated Design &amp; Management department. 
-    TAM focuses on alleviating the busy schedules of student-athletes, using AI to find the best gaps in their schedule to remind the user to “take a minute” and practice a chosen 
+    TAM focuses on alleviating the busy schedules of student-athletes, using AI to find the best gaps in their schedule to remind the user to &quot;take a minute&quot; and practice a chosen 
     self-care method. 
     </p><p>My primary role was facilitating our brainstorming process, refining the UI design, and creating the information architecture.</p></>,
     full_image: "/assets/tam/tamm.jpg"
@@ -133,8 +133,8 @@ const content = [
             </p>
             <img src="/assets/tam/miro.png" className="img"/><br/><br/>
             <h3>Key Quotes</h3>
-            <div className="quote">"Exams around the corner, practices... everything jumps on you at one time" <br/><span>- Sophomore, basketball player</span></div>
-            <div className="quote">"With homework, work, and soccer, I don't have time... Instead, I just sit on my phone." <br/><span>- Junior, soccer player</span></div> 
+            <div className="quote">&quot;Exams around the corner, practices... everything jumps on you at one time&quot; <br/><span>- Sophomore, basketball player</span></div>
+            <div className="quote">&quot;With homework, work, and soccer, I don't have time... Instead, I just sit on my phone.&quot; <br/><span>- Junior, soccer player</span></div> 
         </>
     },
     {
@@ -142,7 +142,7 @@ const content = [
         title: 'What their answers indicate',
         body: <>
         <h3>Insights</h3>
-            <p>We discovered that student athletes' primary needs were <b>organization, peace, 
+            <p>We discovered that student athletes&#39; primary needs were <b>organization, peace, 
                 flexibility, </b> and <b>self-care</b>, and initially brainstormed three How Might We statements:</p>
             <div className="quote long">
             How might we...<br/><br/>
@@ -152,7 +152,7 @@ const content = [
             </div>
             <p>We decided to focus on the <b>first one</b>. We wanted to focus on a matter that seemed more urgent. Student athletes commonly
                 cited busy, stressful schedules yet were more disinclined to admit a lack of proactivity towards self-care. Common responses 
-                were often "I don't have time" or "My sport is my self-care."</p><p>We hoped to find a solution that could help them find that time to relax in a separate environment that did not simulatenously act as their stressor. </p>
+                were often &quot;I don't have time&quot; or &quot;My sport is my self-care.&quot;</p><p>We hoped to find a solution that could help them find that time to relax in a separate environment that did not simulatenously act as their stressor. </p>
         <h3>Personas</h3>
         <div className="columns-wrap personas">
             <div>
@@ -188,7 +188,7 @@ const content = [
                         <img src="/assets/tam/howwhy.png"/>
                         <img src="/assets/tam/ideation.png"/>
                     </div>
-                    <div className="caption">Left: How-Why diagram, starting with the prompt "Athletes are stressed." / Right: Results of brainstorming session and market analysis.</div>
+                    <div className="caption">Left: How-Why diagram, starting with the prompt &quot;Athletes are stressed.&quot; / Right: Results of brainstorming session and market analysis.</div>
                 <h3>Our first approach</h3>
                     <p>We initially settled on wanting to connect teammates and coaches to provide a social, community-based aspect to self-care reminders.</p>
                     <div className="columns-wrap center long-cards">
@@ -204,8 +204,8 @@ const content = [
                         <div className="caption">Initial wireframes for login and register flow, mood checker, and team surveys on mental health.</div>
                         <br/>
                     However, after initial user tests, we discovered common concerns:
-                    <div className="quote">"How will teams know to use this? What if they don't want to talk to their team or coaches?"</div>
-                    <div className="quote">"What if people are too busy to answer all these questions?"</div>
+                    <div className="quote">&quot;How will teams know to use this? What if they don't want to talk to their team or coaches?&quot;</div>
+                    <div className="quote">&quot;What if people are too busy to answer all these questions?&quot;</div>
                 <h3>Back to the drawing board</h3>
                 <p>We realized that we had tried to address too many needs at once. After looking back at our ideation on Miro, 
                     we went back and focused on just one need: <b>daily reminders for self-care</b>.
@@ -304,10 +304,10 @@ const content = [
         body: <>
             <p>We returned to three interviewees to get feedback on our new prototype, resulting in the following quotes:</p>
             <div className="quote">
-            "I can see myself using it towards later time of the day"
+            &quot;I can see myself using it towards later time of the day&quot;
             </div>
             <div className="quote">
-            "I don&#34;t think it&#34;s stressful. It&#34;s an option you can take, not like forcing you to do something."
+            &quot;I don&#34;t think it&#34;s stressful. It&#34;s an option you can take, not like forcing you to do something.&quot;
             </div>
         </>
     },

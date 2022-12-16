@@ -74,7 +74,7 @@ const content = [
                 <h3>Impact</h3>
                 <ul>
                     <li>Customers will trust the company more if they understand how their product was manufactured</li>
-                    <li>Hyundai continues to promote a “customer-first” attitude while benefiting from more long-term relationships with their customers</li>
+                    <li>Hyundai continues to promote a &quot;customer-first&quot; attitude while benefiting from more long-term relationships with their customers</li>
                 </ul>
             </div>
         </div>    

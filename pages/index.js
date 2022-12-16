@@ -32,7 +32,7 @@ let cards = [
                         <Link href="/work">see <br/>all<br/> work</Link>
                     </div>
                     <h4>JUN - AUG 2022</h4>
-                    <h2>Hyundai's Smart Factory Microsite</h2>
+                    <h2>Hyundai&#34;s Smart Factory Microsite</h2>
                     <div className="desc">
                         <span>
                         Educate and build trust with customers via an interactive web experience
