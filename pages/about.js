@@ -40,12 +40,12 @@ export default function About() {
             <motion.p variants={variants} initial="hidden" whileInView="shown">
                 I'm in my third year at MIT studying computer science and cognitive science, with a minor in design and concentration in Korean. 
                 I’m currently designing and developing a web application for historians with 
-                <a href="https://cmsw.mit.edu/profile/kurt-fendt/" target="_blank">Prof. Kurt Fendt</a>. This January, I’m also working 
-                with the <a href="https://usnwc.edu/college-of-maritime-operational-warfare/Humanitarian-Response-Program#:~:text=We%20partner%20with%20leading%20universities,committed%20to%20improving%20humanitarian%20response." target="_blank">USNWC’s Humanitarian Response department</a> 
+                <a href="https://cmsw.mit.edu/profile/kurt-fendt/" target="_blank" rel="noreferrer">Prof. Kurt Fendt</a>. This January, I’m also working 
+                with the <a href="https://usnwc.edu/college-of-maritime-operational-warfare/Humanitarian-Response-Program#:~:text=We%20partner%20with%20leading%20universities,committed%20to%20improving%20humanitarian%20response." target="_blank" rel="noreferrer">USNWC’s Humanitarian Response department</a> 
                 to reimagine their archive for educational materials. 
             </motion.p>
             <motion.p variants={variants} initial="hidden" whileInView="shown">
-                This past summer, I wrapped up an internship with <a href="https://www.hyundai.com/worldwide/ko/" target="_blank">Hyundai Motors</a>, where I worked 
+                This past summer, I wrapped up an internship with <a href="https://www.hyundai.com/worldwide/ko/" target="_blank" rel="noreferrer">Hyundai Motors</a>, where I worked 
                 in Seoul, South Korea on interactive web design and development. I’ve also done work with the <a href="https://www.media.mit.edu/groups/personal-robots/overview/">MIT Media Lab</a> and Wells Fargo, as well as led the 
                 development team at <a href="http://hackmit.org/">HackMIT</a>.</motion.p>
             <motion.p variants={variants} initial="hidden" whileInView="shown">When I’m not designing or coding, I’m a team captain for <a href="http://mitmocktrial.weebly.com/">MIT Mock Trial</a> and a programming tutor. I love travelling, learning new languages, and photography.</motion.p>

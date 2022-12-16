@@ -20,7 +20,7 @@ const opening = {
     I was the head of the Development Team for HackMIT 2022, where I was a project manager and lead developer on HackMIT's event guide, DayOf.
     </p>
     <p>I oversaw the execution of turning mockups into web development, and polished the site with user experience enhancements such as responsiveness, info pop-ups on the Schedule page, a "Jump To" button on the Challenges page, and more.</p>
-    <p>You can view the site at <a href="http://dayof.hackmit.org/" target="_blank">dayof.hackmit.org</a></p>
+    <p>You can view the site at <a href="http://dayof.hackmit.org/" target="_blank" rel="noreferrer">dayof.hackmit.org</a></p>
     </>,
     full_image: "/assets/hackmit_thumbnail.png"
 }

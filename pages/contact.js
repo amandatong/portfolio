@@ -17,11 +17,11 @@ export default function Contact() {
                         <div className="right">
                             Interested in my work, or just want to have a chat?
                             <h3>Email</h3>
-                            <a href="mailto:amanda.g.tong@gmail.com" target="_blank"><BsEnvelope/> amanda.g.tong@gmail.com</a>
+                            <a href="mailto:amanda.g.tong@gmail.com" target="_blank" rel="noreferrer"><BsEnvelope/> amanda.g.tong@gmail.com</a>
                             <h3>Socials</h3>
-                            <a href="http://github.com/amandatong" target="_blank"><BsGithub/> amandatong</a>
-                            <a href="http://linkedin.com/in/amanda-tong" target="_blank"><BsLinkedin/> amanda-tong</a>
-                            <a href="http://behance.net/amanda_tong" target="_blank"><BsBehance/> amanda_tong</a>
+                            <a href="http://github.com/amandatong" target="_blank" rel="noreferrer"><BsGithub/> amandatong</a>
+                            <a href="http://linkedin.com/in/amanda-tong" target="_blank" rel="noreferrer"><BsLinkedin/> amanda-tong</a>
+                            <a href="http://behance.net/amanda_tong" target="_blank" rel="noreferrer"><BsBehance/> amanda_tong</a>
                         </div>
                     </div>
                 </div>

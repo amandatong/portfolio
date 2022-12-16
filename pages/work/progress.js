@@ -12,7 +12,7 @@ const content = []
 
 const opening = {
     title: 'Student Progress Dashboard',
-    subtitle: 'A web app for teachers and parents who need to view progress on students\' literacy skills',
+    subtitle: "A web app for teachers and parents who need to view progress on students' literacy skills",
     stack: ['UI/UX Design', 'Front-end', 'Web', 'Research'],
     // image_one: <img className="left" src="/assets/hyundai/h_laptop2.png"/>,
     // image_two: <img src="/assets/hyundai/h_laptop.png"/>,

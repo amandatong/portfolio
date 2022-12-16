@@ -68,7 +68,7 @@ export default function CaseStudy({id, facts, content, opening, links}) {
                     <div className="case-links">
                         {links && links.map(({title, icon, url}, i) => {
                             return(
-                                <div key={i}><a href={url} target="_blank"><span style={{display:'none'}}>{title}</span>{icon}</a></div>
+                                <div key={i}><a href={url} target="_blank" rel="noreferrer"><span style={{display:'none'}}>{title}</span>{icon}</a></div>
                             )
                         })}
                     </div>

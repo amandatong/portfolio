@@ -56,7 +56,7 @@ const content = [
             </div>
             <div className="image-wrap">
                 <img src="/assets/hyundai/h_ss.png" className="image"/>
-                <span className="caption">Excerpt from the <a href="https://www.hyundai.com/sg/hmgics/about-us/vision-mission" target="_blank">HMGICS website</a></span>
+                <span className="caption">Excerpt from the <a href="https://www.hyundai.com/sg/hmgics/about-us/vision-mission" target="_blank" rel="noreferrer">HMGICS website</a></span>
             </div>
         </div>
             
@@ -233,7 +233,7 @@ const content = [
 ]
 
 const opening = {
-    title: 'Hyundai\'s Smart Factory Microsite',
+    title: "Hyundai's Smart Factory Microsite",
     subtitle: 'Educate and build trust with customers via an interactive web experience',
     stack: ['UI/UX Design', 'Front-end', 'Web', 'Industry'],
     image_one: <img className="left" src="/assets/hyundai/h_laptop2.png"/>,

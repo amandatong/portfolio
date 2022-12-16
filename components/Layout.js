@@ -47,7 +47,7 @@ export default function Layout({children, router}) {
                 <div id="links">
                     <Link href="/work">work</Link>
                     <Link href="/about">about</Link>
-                    <Link href="/resume.pdf" target="_blank">resume</Link>
+                    <Link href="/resume.pdf" target="_blank" rel="noreferrer">resume</Link>
                 </div>
 
                 {/* <div id="lang">
@@ -69,8 +69,8 @@ export default function Layout({children, router}) {
                     amanda&nbsp;tong
                 </div>
                 <div id="external">
-                    <a href="http://github.com/amandatong" target="_blank"><span>github</span> <BsGithub/></a>
-                    <a href="http://linkedin.com/in/amanda-tong" target="_blank"><span>linkedin</span> <BsLinkedin/></a>
+                    <a href="http://github.com/amandatong" target="_blank" rel="noreferrer"><span>github</span> <BsGithub/></a>
+                    <a href="http://linkedin.com/in/amanda-tong" target="_blank" rel="noreferrer"><span>linkedin</span> <BsLinkedin/></a>
                     <a href="mailto:amanda.g.tong@gmail.com"><span>email</span> <BsEnvelope/></a>
                 </div>
             </div>

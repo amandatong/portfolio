@@ -51,7 +51,7 @@ const content = [
     {
         subtitle: 'Context',
         title: 'Where did this idea come from?',
-        body: <p>We started with the theme “On the Move” and told to identify our own problem space and user group. As no one in our group were student athletes, 
+        body: <p>We started with the theme &quot;On the Move&quot; and told to identify our own problem space and user group. As no one in our group were student athletes, 
             we chose to interview the student athletes on campus to discover their unmet needs and pain points.  </p>
     },
     {
@@ -317,7 +317,7 @@ const content = [
         body: <><p>At the end of the 6 weeks, after practicing Agile and human-centered design methods, 
             we presented our final high-fidelity prototype to professors and industry leaders.</p>
             <div className="button-wrap">
-            <a href="https://docs.google.com/presentation/d/1tf0RLz_cawI4qHJL6s_QtfZmU3IykbH4mwyCxWTZl9Y/edit?usp=sharing" target="_blank"><div className="button-link">View the Process Deck</div></a>
+            <a href="https://docs.google.com/presentation/d/1tf0RLz_cawI4qHJL6s_QtfZmU3IykbH4mwyCxWTZl9Y/edit?usp=sharing" target="_blank" rel="noreferrer"><div className="button-link">View the Process Deck</div></a>
             </div></>
     },
     {
