@@ -90,7 +90,7 @@ export default function CaseStudy({id, facts, content, opening, links}) {
                 <h3>At-A-Glance</h3>
                 {opening.brief}
             </section>
-            <img src={opening.full_image}/>
+            <img src={opening.full_image} style={{height:'auto'}}/>
             {content.map(({subtitle, title, body, after}, index) => {
                 return(
                     <div  key={index}>
