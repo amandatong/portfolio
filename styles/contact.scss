@@ -1,0 +1,101 @@
+#contact {
+    margin: 0 5vw;
+    height:100vh;
+    overflow-y:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size:1.5rem;
+        line-height:2;
+    }
+
+    h2 {
+        text-align: center;
+        font-family:'Titan One';
+        text-transform: uppercase;
+        font-size:3rem;
+        font-weight:initial;
+        margin:0;
+        color:$red;
+    }
+
+    #contact-card {
+        @media screen and (max-width:$sm) {
+            height:auto;
+            margin-top:22vw;
+        }
+        .contact-stamp {
+            position:absolute;
+            top:2rem;
+            right:2rem;
+            border:2px solid $gold;
+            color:$gold;
+            padding:1rem;
+            width:100px;
+            height:130px;
+            text-transform: uppercase;
+            text-align: center;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            @media screen and (max-width:$sm) {
+                display:none;
+            }
+        }
+        
+        .card-content {
+            display:flex;
+            column-gap:2rem;
+            margin-top:2rem;
+            line-height:2;
+            height:100%;
+            @media screen and (max-width:$sm) {
+                column-gap:0;
+                margin-top:2rem;
+                height:auto;
+            }
+
+            .left, .right {
+                width:50%;
+                height:calc(100% - 6rem);
+                svg { font-size:3rem;margin-right:1rem; }
+                @media screen and (max-width:$sm) {
+                    width:100%;
+                    height:auto;
+                }
+            }
+
+            .left {
+                img {
+                    width:100%;
+                }
+                @media screen and (max-width:$md) {
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                @media screen and (max-width:$sm) {
+                    display:none;
+                }
+            }
+
+            a { color: $red; &:hover { text-decoration: underline;} display:flex;align-items: center;margin-bottom:1rem;}
+
+            .right {
+                display:flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                @media screen and (max-width:$md) {
+                    justify-content: center;
+                }
+            }
+
+            h3 {
+                border-bottom:1px solid black;
+            }
+        }
+        
+    }
+}

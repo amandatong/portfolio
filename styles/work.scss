@@ -1,0 +1,89 @@
+#work {
+    margin: 0 5vw;
+    padding:2rem;
+    height:calc(100vh - 4rem);
+    overflow-y:auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap:2rem;
+    row-gap:2rem;
+    flex-wrap:wrap;
+    @media screen and (max-width:$sm) {
+        margin:0;
+        padding-top:32vw;
+        height:calc(100vh - 2rem - 32vw);
+        display: flex;
+        grid-template-columns: initial;
+        column-gap:0;
+    }
+
+    h1 {
+        grid-column: 1 / 3;
+        text-align: center;
+        font-family:'Titan One';
+        text-transform: uppercase;
+        font-size:4rem;
+        font-weight:initial;
+        margin:0;
+        margin-top:1rem;
+        color:$red;
+    }
+    .project-wrap {
+        position:relative;
+        border-radius:15px;
+        overflow:hidden;
+        aspect-ratio: 2589/1723;
+        column-gap:2rem;
+        @include smooth($dur:0.5s);
+
+        // &:hover {
+        //     transform:scale(1.2);
+        // }
+
+        .project-desc {
+            opacity:0;
+            visibility:none;
+            position:absolute;top:0;left:0;
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height:100%;
+            width:100%;
+            background: rgb(0,0,0);
+            color:white;
+            background: linear-gradient(0deg, rgba(0,0,0,0.5942752100840336) 28%, rgba(255,255,255,0) 100%);
+            @include smooth($dur:0.5s);
+        }
+
+        .desc-wrap {
+            margin:1rem;
+            display:flex;
+            flex-direction: column;
+            row-gap:0.2rem;
+
+            .work-title {
+                font-size:1.8rem;
+                text-align:uppercase;
+            }
+
+
+            .skill-wrap {
+                display:flex;
+                margin:0.5rem 0;
+                column-gap:0.5rem;
+
+                .skill { 
+                    background-color: $yellow;
+                    color:black;
+                    font-size:0.8em;
+                    padding:0.5em 1em;
+                    border-radius:20px;
+                }
+            }
+        }
+
+        &:hover .project-desc { opacity:1; visibility:visible;}
+
+        img { width:100%; }
+    }
+}

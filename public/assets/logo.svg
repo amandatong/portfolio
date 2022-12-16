@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.95 76.28">
+    <defs>
+        <style>.cls-1,.cls-2{
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;}.cls-1{}.cls-2{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;}</style>
+    </defs>
+    <g id="Layer_1" data-name="Layer 1">
+        <path class="cls-1" d="M69.38,10.05V80.33H58.12C58.12,59.11,33,57.84,33,57.84V80.33H21.77v-38c0-16.29,15.84-29.82,36.35-32,1.83-.14,3.66-.28,5.59-.28h5.67M58.12,70.89V11.46C44.11,13,33,22,33,33.67V56.79c21.34,1.41,25.09,14.1,25.09,14.1M69.38,7.05H63.71c-2,0-4,.15-5.81.29h-.1c-22.25,2.37-39,17.41-39,35v38a3,3,0,0,0,3,3H33a3,3,0,0,0,3-3V61.23c6.16,1.08,19.09,5,19.09,19.1a3,3,0,0,0,3,3H69.38a3,3,0,0,0,3-3V10.05a3,3,0,0,0-3-3ZM36,54.05V33.67c0-8.85,7.85-16.36,19.09-18.7V61.71c-3.74-3.3-9.71-6.56-19.09-7.66Z" transform="translate(-7.48 -7.05)"/>
+    </g>
+    <g id="Layer_2" data-name="Layer 2">
+        <ellipse class="cls-2" cx="45.96" cy="51.36" rx="14.89" ry="43.2" transform="translate(-29.71 54.34) rotate(-56.54)"/>
+    </g>
+</svg>

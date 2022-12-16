@@ -1,0 +1,36 @@
+{
+  "name": "portfolio23",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@use-gesture/react": "^10.2.22",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5",
+    "flickity": "^2.3.0",
+    "framer-motion": "^7.6.18",
+    "i18next": "^22.0.6",
+    "next": "13.0.5",
+    "next-i18next": "^13.0.0",
+    "node-sass": "^8.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-flickity-component": "^3.6.3",
+    "react-i18next": "^12.0.0",
+    "react-icons": "^4.7.1",
+    "react-parallax-tilt": "^1.7.73",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scrollspy-highlight": "^1.0.1",
+    "react-spring": "^9.5.5",
+    "react-use-gesture": "^9.1.3",
+    "sass": "^1.56.1"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.5.1"
+  }
+}

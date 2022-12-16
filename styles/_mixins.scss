@@ -1,0 +1,6 @@
+@mixin smooth($dur: 1s, $attr: all) {
+    -webkit-transition: $attr $dur ease-in-out;
+    -moz-transition: $attr $dur ease-in-out;
+    -o-transition: $attr $dur ease-in-out;
+    transition: $attr $dur ease-in-out;
+}
