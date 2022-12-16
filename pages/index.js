@@ -102,7 +102,7 @@ let cards = [
                 <h4>JAN - AUG 2021</h4>
                 <h2>Student Progress Dashboard</h2>
                 <div className="desc">
-                <span>A web app for teachers and parents who need to view progress on students' literacy skills</span>
+                <span>A web app for teachers and parents who need to view progress on students&#34; literacy skills</span>
                 </div>
                     <div className="stack">
                         {['UI/UX Design', 'Front-end', 'Web', 'Research'].map(s => {
