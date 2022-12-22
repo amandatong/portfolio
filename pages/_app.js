@@ -25,6 +25,8 @@ function App({ Component, pageProps, router }) {
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
             <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
             <link rel="manifest" href="/site.webmanifest"/>
+        </Head>
+        {/* <Cursor targets={targets}/> */}
             <Script async src="https://www.googletagmanager.com/gtag/js?id=G-T24N3Y39C4"/>
             <Script id="google-analytics">
                 {`
@@ -35,8 +37,6 @@ function App({ Component, pageProps, router }) {
                 gtag('config', 'G-T24N3Y39C4');
                 `}
             </Script>
-        </Head>
-        {/* <Cursor targets={targets}/> */}
         <Layout router={router}>
             <Component {...pageProps} />
         </Layout>
