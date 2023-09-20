@@ -1,5 +1,6 @@
 import { motion, useScroll } from "framer-motion"
 import { SiAdobexd, SiAdobeillustrator, SiAdobeindesign, SiAdobephotoshop, SiFigma, SiSketch, SiInvision, SiTrello, SiNotion, SiMiro } from 'react-icons/si'
+import {FaJira, FaConfluence} from 'react-icons/fa'
 
 const scroll = "scroll down for more".split(/(?!$)/u)
 
@@ -38,15 +39,15 @@ export default function About() {
         </div>
         <motion.div className="section" >
             <motion.p variants={variants} initial="hidden" whileInView="shown">
-                I'm in my third year at MIT studying computer science and cognitive science, with a minor in design and concentration in Korean. 
-                I'm currently designing and developing a web application for historians with 
-                <a href="https://cmsw.mit.edu/profile/kurt-fendt/" target="_blank" rel="noreferrer">Prof. Kurt Fendt</a>. This January, I’m also working 
-                with the <a href="https://usnwc.edu/college-of-maritime-operational-warfare/Humanitarian-Response-Program#:~:text=We%20partner%20with%20leading%20universities,committed%20to%20improving%20humanitarian%20response." target="_blank" rel="noreferrer">USNWC’s Humanitarian Response department</a> 
-                to reimagine their archive for educational materials. 
+                I'm in my fourth year at MIT studying computer science and cognitive science, with a concentration in Korean. 
+                Most recently, I finished a 3-month internship with <a href="https://www.bearrobotics.ai" target="_blank" rel="noreferrer">Bear Robotics</a> in Seoul, South Korea, 
+                where I worked as a front-end engineer for their latest robot, Servi Lift, and its touchscreen. 
             </motion.p>
             <motion.p variants={variants} initial="hidden" whileInView="shown">
-                This past summer, I wrapped up an internship with <a href="https://www.hyundai.com/worldwide/ko/" target="_blank" rel="noreferrer">Hyundai Motors</a>, where I worked 
-                in Seoul, South Korea on interactive web design and development. I’ve also done work with the <a href="https://www.media.mit.edu/groups/personal-robots/overview/">MIT Media Lab</a> and Wells Fargo, as well as led the 
+                In the past, I've helped research and design a web application for historians with 
+                <a href="https://cmsw.mit.edu/profile/kurt-fendt/" target="_blank" rel="noreferrer">Prof. Kurt Fendt</a>.
+                Last year, I completed a summer internship with <a href="https://www.hyundai.com/worldwide/ko/" target="_blank" rel="noreferrer">Hyundai Motors</a>, where I worked 
+                on interactive web design and development at their Seoul HQ. I’ve also done work with the <a href="https://www.media.mit.edu/groups/personal-robots/overview/">MIT Media Lab</a> and Wells Fargo, as well as led the 
                 development team at <a href="http://hackmit.org/">HackMIT</a>.</motion.p>
             <motion.p variants={variants} initial="hidden" whileInView="shown">When I’m not designing or coding, I’m a team captain for <a href="http://mitmocktrial.weebly.com/">MIT Mock Trial</a> and a programming tutor. I love travelling, learning new languages, and photography.</motion.p>
         </motion.div>
@@ -54,9 +55,9 @@ export default function About() {
             {[
                 {
                     title: "Development", 
-                    content: <>React.js, Next.js, Node.js, Express.js, Flask, React Native<br/>
-                PostgreSQL, MongoDB, Firebase, Heroku, AWS, Git<br/>
-                HTML/CSS/Javascript, SASS/SCSS, Bootstrap, Material, AntDesign</>
+                    content: <>Typescript, React.js, Next.js, Node.js, Express.js, Flask, React Native<br/>
+                PostgreSQL, MongoDB, Firebase, Heroku, AWS, Git, Docker<br/>
+                HTML/CSS/Javascript, SASS/SCSS, Bootstrap, Material, AntDesign, MobX, Storybook</>
                 },
                 {
                     title: "UI & UX",
@@ -66,11 +67,12 @@ export default function About() {
                     title: "Software",
                     content: <div className="software-wrap">
                         <div className="icon-wrap"><SiFigma/>Figma</div> <div className="icon-wrap"><SiAdobexd/>Adobe XD</div> <div className="icon-wrap"><SiSketch/>Sketch</div>
-                        <div className="icon-wrap"><SiAdobeillustrator/>Adobe Illustrator</div> <div className="icon-wrap"><SiAdobephotoshop/>Adobe Photoshop</div> 
+                        <div className="icon-wrap"><SiAdobeillustrator/>Adobe Illustrator</div> 
+                        <div className="icon-wrap"><SiAdobephotoshop/>Adobe Photoshop</div> 
                         <div className="icon-wrap"><SiAdobeindesign/>Adobe InDesign</div>
                         <div className="icon-wrap"><SiMiro/>Miro</div> <div className="icon-wrap"><SiInvision/>InVision</div> 
-                        <div className="icon-wrap"><SiNotion/>Notion</div>
                         <div className="icon-wrap"><SiTrello/>Trello</div>
+                        <div className="icon-wrap"><FaJira/>Jira</div>
                     
                     </div>,
                 },
@@ -80,7 +82,7 @@ export default function About() {
                         English
                         <div className="language-bar-wrap"><div className="language-bar" style={{width:'100%'}}/></div>
                          Korean
-                        <div className="language-bar-wrap"><div className="language-bar" style={{width:'65%'}}/></div>
+                        <div className="language-bar-wrap"><div className="language-bar" style={{width:'75%'}}/></div>
                     </div>
                 }
             ].map(({title, content}, i) => {

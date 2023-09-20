@@ -1,6 +1,12 @@
 import Link from 'next/link'
 export const WORK_LIST = [
     {
+        id: 'bear',
+        title: 'Bear Robotics Internal Tool',
+        company: 'Bear Robotics',
+        stack: ['UI/UX Design', 'Front-end', 'Web', 'Industry']
+    },
+    {
         id: 'hyundai',
         title: 'Smart Factory Microsite',
         company: 'Hyundai Motor Group',
@@ -26,20 +32,20 @@ export const WORK_LIST = [
     },
 ]
 
-const COMING_SOON = [
-    {
-        id: 'usnwc',
-        title: 'Educational Archive Project',
-        company: 'U.S. Naval War College',
-        stack: ['UI/UX Design', 'Web', 'Internship']
-    },
-    {
-        id: 'misti',
-        title: 'Collaboration Tool for Historians',
-        company: 'MIT-Czech Republic Seed Grant',
-        stack: ['UX Research', 'UI/UX Design', 'Web', 'Research']
-    }
-]
+// const COMING_SOON = [
+//     {
+//         id: 'usnwc',
+//         title: 'Educational Archive Project',
+//         company: 'U.S. Naval War College',
+//         stack: ['UI/UX Design', 'Web', 'Internship']
+//     },
+//     {
+//         id: 'misti',
+//         title: 'Collaboration Tool for Historians',
+//         company: 'MIT-Czech Republic Seed Grant',
+//         stack: ['UX Research', 'UI/UX Design', 'Web', 'Research']
+//     }
+// ]
 
 export default function Work(){
     return(
@@ -67,7 +73,7 @@ export default function Work(){
                         </Link>
                     )
             })}
-            <h1>Currently working on...</h1>
+            {/* <h1>Currently working on...</h1>
             {COMING_SOON.map(({id, title, company, stack}, i) => {
                 
                 return(
@@ -90,7 +96,7 @@ export default function Work(){
                         </div>
                     </a>
                 )
-        })}
+        })} */}
         </div>
     )
 }
